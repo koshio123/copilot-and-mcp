@@ -2,6 +2,10 @@
 
 This repository is used to test the capabilities of GitHub Copilot with the MCP (Model Context Protocol) server to enhance the capabilities.
 
+## GitHub Copilot
+- [Custom Instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions?tool=vscode)
+- [Extending GitHub Copilot with the MCP](https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp/extend-copilot-chat-with-mcp)
+
 ## MCP Servers
 The following MCP servers are used in this repository:
 - [Filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Secure file operations with configurable access controls  
