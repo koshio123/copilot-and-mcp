@@ -12,7 +12,7 @@ NOTE: Although GitHub Copilot supports file operations by default, it cannot acc
 ## Debugging MCP Servers
 Use [MCP Inspector](https://github.com/modelcontextprotocol/inspector) to debug MCP servers.
 
-![alt text](image.png)
+![alt text](images/mcp-inspector-screenshot.png)
 
 ## References
 [Model Context Protocols (Anthropic)](https://modelcontextprotocol.io/examples)
