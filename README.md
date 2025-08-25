@@ -1,6 +1,6 @@
 # copilot-and-mcp
 
-This repository demonstrates how to use GitHub Copilot with the MCP (Model Context Protocol) server to enhance the capabilities.
+This repository is used to test the capabilities of GitHub Copilot with the MCP (Model Context Protocol) server to enhance the capabilities.
 
 ## MCP Servers
 The following MCP servers are used in this repository:
