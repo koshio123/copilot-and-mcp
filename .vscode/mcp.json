@@ -1,0 +1,33 @@
+{
+	"servers": {
+		"postgres": {
+			"command": "docker",
+			"args": [
+				"run",
+				"-i",
+				"--rm",
+				"mcp/postgres",
+				"${input:pg_url}"
+			],
+			"type": "stdio"
+		},
+		"filesystem": {
+			"command": "docker",
+			"args": [
+				"run",
+				"-i",
+				"--rm",
+				"--mount", "type=bind,src=/Users/kentaro/src/projects/news-aggregator,dst=/projects/src/projects/news-aggregator",
+				"mcp/filesystem",
+				"/projects"
+			]
+		}
+	},
+	"inputs": [
+		{
+			"type": "promptString",
+			"id": "pg_url",
+			"description": "PostgreSQL URL (e.g. postgresql://user:pass@host.docker.internal:5432/mydb)"
+		}
+	]
+}
